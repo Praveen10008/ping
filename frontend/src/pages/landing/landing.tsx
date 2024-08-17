@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import landingSVG from "../../assets/landing.png";
+import landingSVG from "../../assets/landing.svg";
 import Header from "../../components/header";
 import { ArrowRightIcon } from "@heroicons/react/16/solid";
 
@@ -27,7 +27,7 @@ export default function landing() {
               </button>
             </Link>
           </div>
-          <div className="m-auto md:w-2/3 xl:w-full">
+          <div className="m-auto md:w-2/3">
             <img className="m-auto hidden md:block" src={landingSVG} alt="landing" />
           </div>
         </div>
